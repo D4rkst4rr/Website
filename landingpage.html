@@ -39,7 +39,7 @@
             <img id="laptop_img" src="Laptop.png" alt="Laptop">
             <img id="mobile_img" src="mobile.png" alt="Mobile">
             <img id="shadowtext_img" src="ASV.png" alt="Text">
-            <!--  <img id="bg_img" src="bg.png" alt="bg"> -->
+            <img id="bg_img" src="bg.png" alt="bg">
           </div>
           <h3 class="text-center">ASV Business Solution: Your Reliable Software Partner for a Smooth Business Operation Experience.</h3>
 			<div class="d-flex flex-column">
@@ -67,6 +67,7 @@
             <p class="text-justify">ASV Business Solution is a local IT firm based in Cebu City, Philippines. Cirquolus, which launched in March 2019, was created with the objective of empowering Philippine SMEs by giving them access to effective and affordable business software.
               ASV Business Solution was founded with the goal of solving Philippine SMEs' limited access to business software and assisting them in accomplishing more with less. The company has been recognized for its efforts, having completed the Department of Trade and Industry's start-up initiative. The company has gained recognition for its efforts, by successfully completing the Department of Trade and Industry's start-up initiative.
               </p>
+            <p>Cirquolus provides Philippine SMEs with a platform that optimizes their processes, boosts efficiency, and assures compliance with government laws. Choosing Cirquolus, SMEs will not only gain the solutions they require to flourish, but also help a regional technology firm in the process.</p>
           </div>
         </div>
         <div class="col-md-6 ">
@@ -83,32 +84,45 @@
       </div>
       
       <div class="row" id="services">
-        <div class="col">
+        <div class="col px-5 box1 text-center">
           <img src="saved.png" alt="Image 1" class="img-fluid" >
           <h5>Cloud-Based</h5>
-          <p>Cirquolus is a cloud-based solution, which means that you can access your data and applications from anywhere, at any time. This makes it easy for you and your team to work remotely, collaborate on projects, and stay connected.</p>
+          <button class="read-more btn btn-primary">Read More</button>
+          <p class="collapse">Cirquolus is a cloud-based solution, which means that you can access your data and applications from 
+            anywhere, at any time. This makes it easy for you and your team to work remotely, collaborate on projects, 
+            and stay connected.</p>
         </div>
-        <div class="col">
+        <div class="col box2 text-center">
           <img src="saved.png" alt="Image 2" class="img-fluid">
           <h5>Comprehensive</h5>
-          <p>Cirquolus offers a wide range of features and tools, including accounting, inventory management, sales, and customer relationship management (CRM). This means that you can manage all aspects of your business from a single platform.</p>
+          <button class="read-more btn btn-primary">Read More</button>
+          <p class="collapse">Cirquolus is a cloud-based solution, which means that you can access your data and applications from 
+            anywhere, at any time. This makes it easy for you and your team to work remotely, collaborate on projects, 
+            and stay connected.</p>
         </div>
-        <div class="col">
+        <div class="col box3 text-center">
           <img src="saved.png" alt="Image 3" class="img-fluid">
           <h5>Customizable</h5>
-          <p>Cirquolus is highly customizable, which means that you can tailor it to your specific business needs. You can add new features and functionality as your business grows, or remove features that you don't need.</p>
+          <button class="read-more btn btn-primary">Read More</button>
+          <p class="collapse">Cirquolus is a cloud-based solution, which means that you can access your data and applications from 
+            anywhere, at any time. This makes it easy for you and your team to work remotely, collaborate on projects, 
+            and stay connected.</p>
         </div>
-        <div class="col">
+        <div class="col box4 text-center">
           <img src="saved.png" alt="Image 4" class="img-fluid">
           <h5>User-Friendly</h5>
-          <p>Cirquolus is designed to be easy to use, with a simple and intuitive interface. This means that you and your team can get up and running quickly, without the need for extensive training.
-          </p>
+          <button class="read-more btn btn-primary">Read More</button>
+          <p class="collapse">Cirquolus is a cloud-based solution, which means that you can access your data and applications from 
+            anywhere, at any time. This makes it easy for you and your team to work remotely, collaborate on projects, 
+            and stay connected.</p>
         </div>
-        <div class="col">
+        <div class="col box5 text-center">
           <img src="saved.png" alt="Image 5" class="img-fluid">
           <h5>Secure</h5>
-          <p>Cirquolus uses the latest security measures to ensure that your data is safe and secure. This includes data encryption, user authentication, and regular backups.
-          </p>
+          <button class="read-more btn btn-primary">Read More</button>
+          <p class="collapse">Cirquolus is a cloud-based solution, which means that you can access your data and applications from 
+            anywhere, at any time. This makes it easy for you and your team to work remotely, collaborate on projects, 
+            and stay connected.</p>
         </div>
       </div>
 
@@ -130,7 +144,10 @@
       // Toggle the "show" class to the navbar-collapse element
       document.querySelector(".navbar-collapse").classList.toggle("show");
       });
-    </script>
+      $(".read-more").click(function() {
+    $(this).closest(".col").find(".collapse").toggle();
+  });
+</script>
   </body>
 </html>
 
