@@ -62,24 +62,43 @@ section {
 /*home section  //////////////////////////////////////////////// */
 #home {
   padding-top: 18px;
-  padding-bottom: 300px;
-
+  padding-bottom: 25vh;
 }
 
 /*about section /////////////////////////////////////////////// */
 #about {
-  padding-top: 95px;
+  padding-top: 10px;
   padding-bottom: 20px;
   padding-left: 100px;
-
 }
+
+.about1 {
+  margin-left: -30px;
+  margin-top: 80px;
+}
+
+.about1_1 {
+  padding: 20px;
+  margin-left: -50px;
+}
+.about2 {
+  padding-top:310px;
+}
+
+.about2_1 {
+  padding-top: 20px;
+  padding-right: 70px;
+  margin-left: -20px;
+}
+
 /*services section //////////////////////////////////////////// */
 #services {
   padding-top: 95px;
-  padding-bottom: 530px;
+  padding-bottom: 50px;
 }
 
 #services img {
+  padding-top: 10px;
   max-width: 100%;
   height: auto;
 }
@@ -93,23 +112,63 @@ section {
 }
 
 .box1:hover {
-  background-color: #45b9c9;
+  background-color: blue;
+}
+
+.box1:hover h5{
+  color: white;
+}
+
+.box1:hover p{
+  color: white;
 }
 
 .box2:hover {
-  background-color: #4ddf85;
+  background-color: blue;
+}
+
+.box2:hover h5{
+  color: white;
+}
+
+.box2:hover p{
+  color: white;
 }
 
 .box3:hover {
-  background-color: #cc99ff;
+  background-color: blue;
+}
+
+.box3:hover h5{
+  color: white;
+}
+
+.box3:hover p{
+  color: white;
 }
 
 .box4:hover {
-  background-color: #99ffcc;
+  background-color: blue;
+}
+
+.box4:hover h5{
+  color: white;
+}
+
+.box4:hover p{
+  color: white;
 }
 
 .box5:hover {
-  background-color: #aeaf4e;
+  background-color: blue;
+}
+
+.box5:hover h5{
+  color: white;
+}
+
+.box5:hover p{
+  color: white;
 }
 
 .btn-primary {
@@ -126,6 +185,12 @@ section {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 
+.service_text {
+  padding-left: 30px;
+  padding-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
 /*button hidder*/
 
 .collapse {
@@ -205,6 +270,7 @@ i {
 }
 .d-flex {
   margin-left:-60px; 
+  margin-right: 1140px;;
 }
 
 .container {
@@ -216,10 +282,10 @@ i {
   align-items: center;
   writing-mode: vertical-lr;
   text-align: left;
-  height: 100vh;
+  height: 30vh;
   width: 20%;
   position: absolute;
-  left: -95px;
+  left: 15px;
   top: 20px;
   padding: 10px;
   position:relative;
@@ -277,7 +343,7 @@ i {
   left: 65%;
   transform: translate(-50%, -50%);
   width: 12%;
-  height:52%;
+  height:48%;
 }
 
 #logo_img{
@@ -294,22 +360,6 @@ i {
   transform: translate(-50%, -50%);
 }
 
-.column2 {
-  padding: 20px;
-  margin-left: -50px;
-}
-.column2_1 {
-  padding-top:40px;
-}
-
-.column1 {
-  margin-left: 50px;
-  margin-top: 40px;
-}
-.column1_2 {
-  padding-top: 160px;
-  padding-right: 70px;
-}
 
 
 
