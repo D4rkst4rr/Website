@@ -39,6 +39,10 @@ ul {
   color: black;
 }
 
+body {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 /*transition*/
 html {
   scroll-behavior: smooth;
@@ -70,7 +74,6 @@ section {
   padding-top: 10px;
   padding-bottom: 20px;
   padding-left: 100px;
-  background-color: #5A5A5A;
 }
 
 .about1 {
@@ -193,16 +196,7 @@ section {
   margin: 20px;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
-}
-.btn-primary:hover {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
-}
+
 .btn-primary:focus, .btn-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(68, 73, 78, 0.5);
 }
@@ -237,17 +231,15 @@ section {
 #features {
   padding-top: 10px;
   padding-bottom: 100px;
-  background-color: #5A5A5A;
 }
 
 .features_title {
   padding-left: 60px;
-  color: white;
 }
 
 .features_text {
   padding-left: 60px;
-  color: white;
+
 }
 
 /*contact section //////////////////////////////////////////////  */
@@ -275,21 +267,6 @@ p {
   font-family: 'Poppins' sans-serif;
 }
 
-#about h2 {
-  color: white;
-}
-
-#about h3 {
-  color: white;
-}
-
-#about h5 {
-  color: white;
-}
-
-#about p {
-  color: white;
-}
 
 /* Animation  //////////////////////////////////////////////////////////////////////////////////////////////////  */
 @keyframes float {
@@ -349,12 +326,24 @@ i {
   color: gray;
 }
 
+.fab.fa-facebook:hover {
+  color: #ff904e;
+}
+
 .fab.fa-instagram {
   color: gray;
 }
 
+.fab.fa-instagram:hover {
+  color: #ff904e;
+}
+
 .fab.fa-linkedin {
   color: gray;
+}
+
+.fab.fa-linkedin:hover {
+  color: #ff904e;
 }
 
 
@@ -414,7 +403,14 @@ i {
   transform: translate(-50%, -50%);
 }
 
+#features a {
+  text-decoration: none;
+  color: black;
+}
 
+.card {
+  margin: 20px;
+}
 
 
 
