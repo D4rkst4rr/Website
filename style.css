@@ -39,6 +39,10 @@ ul {
   color: black;
 }
 
+body {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 /*transition*/
 html {
   scroll-behavior: smooth;
@@ -91,6 +95,23 @@ section {
   margin-left: -20px;
 }
 
+.about3 {
+  margin-left: -30px;
+  margin-top: 50px;
+}
+
+#about_btn {
+  background-color: #ff904e;
+  border-color:#FFCC99;
+  color: black;
+}
+
+#about_btn:hover {
+  background-color: #252523;
+  border-color:#FFCC99;
+  color:white;
+}
+
 /*services section //////////////////////////////////////////// */
 #services {
   padding-top: 95px;
@@ -112,7 +133,7 @@ section {
 }
 
 .box1:hover {
-  background-color: blue;
+  background-color: #5A5A5A;
 }
 
 .box1:hover h5{
@@ -124,7 +145,7 @@ section {
 }
 
 .box2:hover {
-  background-color: blue;
+  background-color: #5A5A5A;
 }
 
 .box2:hover h5{
@@ -136,7 +157,7 @@ section {
 }
 
 .box3:hover {
-  background-color: blue;
+  background-color: #5A5A5A;
 }
 
 .box3:hover h5{
@@ -148,7 +169,7 @@ section {
 }
 
 .box4:hover {
-  background-color: blue;
+  background-color: #5A5A5A;
 }
 
 .box4:hover h5{
@@ -160,7 +181,7 @@ section {
 }
 
 .box5:hover {
-  background-color: blue;
+  background-color: #5A5A5A;
 }
 
 .box5:hover h5{
@@ -171,18 +192,13 @@ section {
   color: white;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+.box {
+  margin: 20px;
 }
-.btn-primary:hover {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
-}
+
+
 .btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(68, 73, 78, 0.5);
 }
 
 .service_text {
@@ -210,11 +226,27 @@ section {
   text-decoration: none;
   color: #000;
 }
+/*features section //////////////////////////////////////////////  */
+
+#features {
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
+.features_title {
+  padding-left: 60px;
+}
+
+.features_text {
+  padding-left: 60px;
+
+}
+
 /*contact section //////////////////////////////////////////////  */
 #contact {
   padding-top: 95px;
   padding-bottom: 100px;
-
+  background-color: #ffffff;
 }
 
 /*text*/
@@ -234,7 +266,6 @@ H2 {
 p {
   font-family: 'Poppins' sans-serif;
 }
-
 
 
 /* Animation  //////////////////////////////////////////////////////////////////////////////////////////////////  */
@@ -295,12 +326,24 @@ i {
   color: gray;
 }
 
+.fab.fa-facebook:hover {
+  color: #ff904e;
+}
+
 .fab.fa-instagram {
   color: gray;
 }
 
+.fab.fa-instagram:hover {
+  color: #ff904e;
+}
+
 .fab.fa-linkedin {
   color: gray;
+}
+
+.fab.fa-linkedin:hover {
+  color: #ff904e;
 }
 
 
@@ -360,7 +403,14 @@ i {
   transform: translate(-50%, -50%);
 }
 
+#features a {
+  text-decoration: none;
+  color: black;
+}
 
+.card {
+  margin: 20px;
+}
 
 
 
