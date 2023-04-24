@@ -403,14 +403,14 @@ i {
   transform: translate(-50%, -50%);
 }
 
-#features a {
-  text-decoration: none;
-  color: black;
+.card img {
+  height: 90px;
+  width: 90px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .card {
-  margin: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
 }
-
-
-
