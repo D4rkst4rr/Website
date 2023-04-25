@@ -341,7 +341,7 @@ i {
 }
 
 .fab.fa-facebook:hover {
-  color: #ff904e;
+  color: #ffffff;
 }
 
 .fab.fa-instagram {
@@ -349,7 +349,7 @@ i {
 }
 
 .fab.fa-instagram:hover {
-  color: #ff904e;
+  color: #ffffff;
 }
 
 .fab.fa-linkedin {
@@ -357,7 +357,7 @@ i {
 }
 
 .fab.fa-linkedin:hover {
-  color: #ff904e;
+  color: #ffffff;
 }
 
 
@@ -386,7 +386,7 @@ i {
 
 #bg_img{
   position: absolute;
-  top: 300px;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
