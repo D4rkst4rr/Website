@@ -132,7 +132,7 @@ section:not(:target) {
 }
 
 .box1:hover {
-  background-color: #5A5A5A;
+  background-color: #ff904e;
 }
 
 .box1:hover h5{
@@ -144,7 +144,7 @@ section:not(:target) {
 }
 
 .box2:hover {
-  background-color: #5A5A5A;
+  background-color: #ff904e;
 }
 
 .box2:hover h5{
@@ -156,7 +156,7 @@ section:not(:target) {
 }
 
 .box3:hover {
-  background-color: #5A5A5A;
+  background-color: #ff904e;
 }
 
 .box3:hover h5{
@@ -168,7 +168,7 @@ section:not(:target) {
 }
 
 .box4:hover {
-  background-color: #5A5A5A;
+  background-color: #ff904e;
 }
 
 .box4:hover h5{
@@ -180,7 +180,7 @@ section:not(:target) {
 }
 
 .box5:hover {
-  background-color: #5A5A5A;
+  background-color: #ff904e;
 }
 
 .box5:hover h5{
@@ -192,7 +192,7 @@ section:not(:target) {
 }
 
 .box {
-  margin: 20px;
+  margin: 25px;
 }
 
 
@@ -318,8 +318,8 @@ i {
 }
 
 .icons {
-  padding-top: 130px;
-  padding-left: -30px;
+  padding-top: 150px;
+  padding-left: -40px;
 }
 
 #vertical-text-container {
@@ -341,7 +341,7 @@ i {
 }
 
 .fab.fa-facebook:hover {
-  color: #ffffff;
+  color: #ff904e;
 }
 
 .fab.fa-instagram {
@@ -349,7 +349,7 @@ i {
 }
 
 .fab.fa-instagram:hover {
-  color: #ffffff;
+  color: #ff904e;
 }
 
 .fab.fa-linkedin {
@@ -357,7 +357,7 @@ i {
 }
 
 .fab.fa-linkedin:hover {
-  color: #ffffff;
+  color: #ff904e;
 }
 
 
@@ -430,7 +430,7 @@ i {
 }
 .card:hover {
   color: white;
-  background-color: #ff904e;
+  background-color: #5A5A5A;
 }
 
 #bg_abt{
@@ -442,3 +442,4 @@ i {
   height: auto;
   z-index: -2;
 }
+
