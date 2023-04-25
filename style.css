@@ -59,7 +59,7 @@ section:not(:target) {
 #home {
   padding-top: 18px;
   padding-bottom: 25vh;
-  padding-left: 50px;
+
   padding-right: 50px;
 }
 
@@ -319,7 +319,7 @@ i {
 
 .icons {
   padding-top: 150px;
-  padding-left: -40px;
+
 }
 
 #vertical-text-container {
