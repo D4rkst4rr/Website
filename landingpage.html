@@ -45,7 +45,7 @@
             <img id="bg_img" src="image/back.png" alt="bg">
           </div>
           <h3 class="text-center">ASV Business Solution: Your Reliable Software Partner for a Smooth Business Operation Experience.</h3>
-			<div class="d-flex flex-column">
+			<div class="d-flex flex-column icons">
 				<a href="https://www.facebook.com/asvbusinesssolution"><i class="fab fa-facebook"></i></a>
 				<a href="https://www.instagram.com/asvbusinesssolutions/"><i class="fab fa-instagram"></i></a>
 				<a href="https://www.linkedin.com/company/asv-business-solution"><i class="fab fa-linkedin"></i></a>
@@ -63,6 +63,7 @@
       <div class="row" id="about">
         <div class="col-md-6">
           <div class="about1">
+            <img id="bg_abt" src="image/paint.png" alt="bg">
           <h2>Hello there!</h2>
           <h3>We are ASV Business Solutions</h3> 
         </div>
@@ -81,6 +82,7 @@
 </p>
 </p>
             </div>
+            
         </div>
         <div class="col-md-6 ">
           <div class="about2">
@@ -120,7 +122,6 @@
       </div>
       
       <div class="row" id="services">
-        <img id="bg_img_ser" src="image/pad.png" alt="bg_sv">
         <div class="col-md-12 text-center">
           <h2 class="service_title">“Strengthen Your Business with Cirquolus: The Comprehensive Cloud Solution for Small and Medium Enterprises."
           </h2>
@@ -131,35 +132,30 @@
         <div class="col box1 box text-center">
           <img src="image/cloud.png" alt="Image 1" class="img-fluid" >
           <h5>Cloud-Based</h5>
-          <button class="read-more btn btn-primary" id="about_btn">Read More</button>
           <p class="collapse"><b>"Access your data anytime, anywhere!"</b></p>
           <p class="collapse">Cirquolus allows you to store and access your data and applications through the internet, giving you the freedom to work in the most convenient way.</p>
         </div>
         <div class="col box2 box text-center">
           <img src="image/comprehensive.png" alt="Image 2" class="img-fluid">
           <h5>Comprehensive</h5>
-          <button class="read-more btn btn-primary" id="about_btn">Read More</button>
           <p class="collapse"><b>"We got you covered!"</b></p>
           <p class="collapse">Cirquolus provides a comprehensive suite of features and tools that cover various aspects of the business process. It streamlines all your business processes from accounting, inventory, purchasing, sales, employees, and customer relationships. Access all this process in one application.</p>
         </div>
         <div class="col box3 box text-center">
           <img src="image/customizable.png" alt="Image 3" class="img-fluid">
           <h5>Customizable</h5>
-          <button class="read-more btn btn-primary" id="about_btn">Read More</button>
           <p class="collapse"><b>"Made for you!"</b></p>
           <p class="collapse">A solution will only be useful if it solves your problems. Cirquolus can be customized to fit your specifications allowing you fully utilize the system. All system features are made available according to your requirements and preference.</p>
         </div>
         <div class="col box4 box text-center">
           <img src="image/userfriendly.png" alt="Image 4" class="img-fluid">
           <h5>User-Friendly</h5>
-          <button class="read-more btn btn-primary" id="about_btn">Read More</button>
           <p class="collapse"><b>"Use it with ease!"</b></p>
           <p class="collapse">Cirquolus is designed with user-friendliness in mind, featuring a simple and intuitive interface that makes it easy to use for users of all skill levels.  This helps reduce the learning curve and maximizes productivity.</p>
         </div>
         <div class="col box5 box text-center">
           <img src="image/secure.png" alt="Image 5" class="img-fluid">
           <h5>Secure</h5>
-          <button class="read-more btn btn-primary" id="about_btn">Read More</button>
           <p class="collapse"><b>"You are protected!"</b></p>
           <p class="collapse">Cirquolus is using a high level of security to ensure all information is safe. Informations are encrypted to protect unauthorized access, uses multi-factor authentication,conduct regular backups to avoid data loss.</p>
         </div>
@@ -259,17 +255,15 @@
               </div>
             </div>
           </div>
-          
         </div>
       </div>
 
       <div class="row" id="contact">
-        <footer class="footer">
-          <div class="container">
+        <div class="footer">
               <div class="row">
                   <div class="col-md-6">
-                      <h4>About Us</h4>
-                      <p>ASV Business Solutions believe that information has cost and that all business decisions should be an informed decision. Supported by facts from the root level, trial and error method of decision making would be eliminated and shall be replaced with clear directions not only for business executives but for all stakeholders whose interest is the growth of the company.</p>
+                      <h4 class="text-lrft">About Us</h4>
+                      <p class="text-justify">ASV Business Solutions believe that information has cost and that all business decisions should be an informed decision. Supported by facts from the root level, trial and error method of decision making would be eliminated and shall be replaced with clear directions not only for business executives but for all stakeholders whose interest is the growth of the company.</p>
                   </div>
                   <div class="col-md-6">
                       <h4>Contact Us</h4>
@@ -277,11 +271,11 @@
                       Phone: (+63) 32-350-5550</p>
                   </div>
               </div>
+              <div class="copyr">
+                <p>Copyright ASV 2023 - Site by Cirquolus</p>
+              </div>
           </div>
-        <div>
-          <p class="text-center">Copyright ASV 2023 - Site by Cirquolus</p>
-        </div>
-      </footer>
+      </div>
         
       
     </div>
@@ -298,6 +292,10 @@
       $(".read-more").click(function() {
     $(this).closest(".col").find(".collapse").toggle();
   });
+
+  $(".box").hover(function() {
+  $(this).find(".collapse").toggle();
+});
 </script>
   </body>
 </html>

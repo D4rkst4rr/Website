@@ -29,7 +29,7 @@ ul {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'verdana', sans-serif;
 }
 
 
@@ -39,10 +39,7 @@ ul {
   color: black;
 }
 
-body {
-  padding-left: 50px;
-  padding-right: 50px;
-}
+
 /*transition*/
 html {
   scroll-behavior: smooth;
@@ -58,15 +55,12 @@ section:not(:target) {
   pointer-events: none;
 }
 
- /* section //////////////////////////////////////////////////////////////////////////////*/
-section {
-  padding: 50px 0;
-  text-align: center;
-}
 /*home section  //////////////////////////////////////////////// */
 #home {
   padding-top: 18px;
   padding-bottom: 25vh;
+
+  padding-right: 50px;
 }
 
 /*about section /////////////////////////////////////////////// */
@@ -114,8 +108,13 @@ section {
 
 /*services section //////////////////////////////////////////// */
 #services {
+  background-image: url('image/pad.png');
+  background-size: cover; /* Scale the image to cover the entire section */
+  background-position: center center; /* Center the image vertically and horizontally */
   padding-top: 95px;
   padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 #services img {
@@ -133,7 +132,7 @@ section {
 }
 
 .box1:hover {
-  background-color: #5A5A5A;
+  background-color: #ff904e;
 }
 
 .box1:hover h5{
@@ -145,7 +144,7 @@ section {
 }
 
 .box2:hover {
-  background-color: #5A5A5A;
+  background-color: #ff904e;
 }
 
 .box2:hover h5{
@@ -157,7 +156,7 @@ section {
 }
 
 .box3:hover {
-  background-color: #5A5A5A;
+  background-color: #ff904e;
 }
 
 .box3:hover h5{
@@ -169,7 +168,7 @@ section {
 }
 
 .box4:hover {
-  background-color: #5A5A5A;
+  background-color: #ff904e;
 }
 
 .box4:hover h5{
@@ -181,7 +180,7 @@ section {
 }
 
 .box5:hover {
-  background-color: #5A5A5A;
+  background-color: #ff904e;
 }
 
 .box5:hover h5{
@@ -193,7 +192,7 @@ section {
 }
 
 .box {
-  margin: 20px;
+  margin: 25px;
 }
 
 
@@ -231,24 +230,34 @@ section {
 #features {
   padding-top: 10px;
   padding-bottom: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .features_title {
-  padding-left: 60px;
+  padding-left: 10px;
 }
 
 .features_text {
-  padding-left: 60px;
+  padding-left: 10px;
 
 }
 
 /*contact section //////////////////////////////////////////////  */
 #contact {
-  padding-top: 95px;
-  padding-bottom: 100px;
-  background-color: #ffffff;
+  background-image: url('image/low.png');
+  background-size: 120% 300%; /* Scale the image */
+  background-position: center center; /* Center the image */
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
+.copyr {
+  text-align: center;
+  padding-top: 20px;
+}
 /*text*/
 H1 {
   font-family: 'Now', sans-serif;
@@ -306,6 +315,11 @@ i {
 
 .container {
   padding-top: 80px;
+}
+
+.icons {
+  padding-top: 150px;
+
 }
 
 #vertical-text-container {
@@ -367,16 +381,16 @@ i {
   left: 40%;
   transform: translate(-50%, -50%);
   width: 50%;
-  height: 80%;
+  height: auto;
 }
 
 #bg_img{
   position: absolute;
-  top: 300px;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  height: 95%;
+  height: auto;
   z-index: -2;
 }
 
@@ -386,7 +400,7 @@ i {
   left: 65%;
   transform: translate(-50%, -50%);
   width: 12%;
-  height:48%;
+  height:auto;
 }
 
 #logo_img{
@@ -416,21 +430,16 @@ i {
 }
 .card:hover {
   color: white;
-  background-color: #ff904e;
+  background-color: #5A5A5A;
 }
 
-#bg_img_ser{
+#bg_abt{
   position: absolute;
-  top: 22in;
-  left: 50%;
+  top: 700px;
+  left: 140%;
   transform: translate(-50%, -50%);
-  width: 100%;
-  height: 95%;
+  width: 80%;
+  height: auto;
   z-index: -2;
 }
 
-.footer {
-  background-color: #fdfdfd;
-  padding: 30px;
-  border-top: 0.1px solid rgb(197, 197, 197);
-}
