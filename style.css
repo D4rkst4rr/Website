@@ -377,7 +377,7 @@ i {
 
 #laptop_img{
   position:absolute;
-  top: 71%;
+  top: 67%;
   left: 40%;
   transform: translate(-50%, -50%);
   width: 50%;
@@ -386,8 +386,8 @@ i {
 
 #bg_img{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 37.5%;
+  left: 53%;
   transform: translate(-50%, -50%);
   width: 100%;
   height: auto;
@@ -418,8 +418,8 @@ i {
 }
 
 .card img {
-  height: 60px;
-  width: 70px;
+  height: 65px;
+  width: 75px;
   padding-top: 20px;
   padding-left: 30px;
 }
