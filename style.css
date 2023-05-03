@@ -112,7 +112,7 @@ section:not(:target) {
   background-size: cover; /* Scale the image to cover the entire section */
   background-position: center center; /* Center the image vertically and horizontally */
   padding-top: 95px;
-  padding-bottom: 50px;
+  margin-bottom: 4in;
   padding-left: 50px;
   padding-right: 50px;
 }
