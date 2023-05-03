@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="module.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -99,12 +103,13 @@
     </div>
 </div>
 
-<div class="container1">
-  <img id="pic" src="saved.png">
-  <img id="pic" src="saved.png">
-  <img id="pic" src="saved.png">
-  <img id="pic" src="saved.png">
+
+<div class="carousel">
+  <img src="../image/assets management black.png" alt="Image 1" class="carousel-item">
+  <img src="../image/audit black.png" alt="Image 2" class="carousel-item">
+  <img src="../image/CRM black.png" alt="Image 3" class="carousel-item">
 </div>
+
 
 
 <div class="container">
@@ -160,5 +165,20 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function() {
+  var items = $('.carousel-item');
+  var currentItem = 0;
+
+  setInterval(function() {
+    items.eq(currentItem).removeClass('active').addClass('left');
+
+    currentItem = (currentItem + 1) % items.length;
+
+    items.eq(currentItem).removeClass('right').addClass('active');
+    items.eq((currentItem + 1) % items.length).removeClass('left').addClass('right');
+  }, 2000);
+});
+</script>
 </body>
 </html>
