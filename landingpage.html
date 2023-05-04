@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   </head>
   <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">top</button>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <a class="navbar-brand" href="#"><img id="logo_img" src="image/Logo.png" alt="Logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,7 +64,7 @@
       <div class="row" id="about">
         <div class="col-md-6">
           <div class="about1">
-            <img id="bg_abt" src="image/paint.png" alt="bg">
+            <img id="bg_abt" src="image/rotate.png" alt="bg" class="rotate">
           <h2>Hello there!</h2>
           <h3>We are ASV Business Solutions</h3> 
         </div>
@@ -71,12 +72,12 @@
                   <p class="text-justify">A company places a great emphasis on technology that brings powerful tools and features to your fingertips. </p>
                     
                   <button class="read-more btn btn-primary" id="about_btn">Read More</button>
-                  <p class="collapses text-justify">Unleash the full potential of groundbreaking technology with our revolutionary application that catapults 
+                  <p class="collapse text-justify">Unleash the full potential of groundbreaking technology with our revolutionary application that catapults 
                   your productivity to new heights! Conquer your goals effortlessly, be it dominating your finances, orchestrating your action-packed schedule, 
                   or synergizing with your dream team. Our state-of-the-art, user-friendly interface ensures a seamless, electrifying experience that leaves 
                   you craving more.</p>
                 
-                  <p class="collapses text-justify">Dive into a world of endless possibilities, tailored exclusively for you. Our application adapts to your unique needs and preferences, offering 
+                  <p class="collapse text-justify">Dive into a world of endless possibilities, tailored exclusively for you. Our application adapts to your unique needs and preferences, offering 
                   a smorgasbord of personalized settings and cutting-edge features. Say hello to the future of productivity and indulge in an exhilarating, 
                   transformative experience like never before!</p>
 </p>
@@ -93,12 +94,12 @@
             <p class="text-justify">ASV Business Solution, an innovative IT juggernaut nestled in the vibrant core of Cebu City, Philippines. Launched in March 2019, Cirquolus emerged with a fiery
               passion to skyrocket Philippine SMEs to unprecedented levels of success, providing them access to top-notch, affordable business software solutions.</p>
               <button class="read-more btn btn-primary" id="about_btn">Read More</button>
-              <p class="collapses text-justify">Forged with the purpose of transforming the business software realm for Philippine SMEs and igniting their growth, ASV Business Solution has garnered
+              <p class="collapse text-justify">Forged with the purpose of transforming the business software realm for Philippine SMEs and igniting their growth, ASV Business Solution has garnered
                 accolades for its remarkable accomplishments, including the triumphant completion of the Department of Trade and Industry's esteemed start-up initiative.</p>
-              <p class="collapses text-justify">Cirquolus empowers Philippine SMEs with an industry-disrupting platform that revolutionizes operations, supercharge efficiency, and ensures unwavering
+              <p class="collapse text-justify">Cirquolus empowers Philippine SMEs with an industry-disrupting platform that revolutionizes operations, supercharge efficiency, and ensures unwavering
                 adherence to government regulations. By opting for Cirquolus, SMEs not only secure the critical resources needed to excel, but also bolster the prominence of a burgeoning local tech
                 enterprise.</p>
-                <p class="collapses text-justify">Embrace the future with Cirquolus, where groundbreaking technology meets limitless potential for SMEs in the Philippines. Together, we redefine success
+                <p class="collapse text-justify">Embrace the future with Cirquolus, where groundbreaking technology meets limitless potential for SMEs in the Philippines. Together, we redefine success
                   and champion the advancement of homegrown innovation.</p>
           </div>
         </div>
@@ -112,9 +113,9 @@
                     to our clients.</p>
                     
                   <button class="read-more btn btn-primary" id="about_btn">Read More</button>
-                  <p class="collapses text-justify">At the heart of our ethos lies the conviction that teamwork, collaboration, and open communication form the bedrock of success. Our team operates in unison,
+                  <p class="collapse text-justify">At the heart of our ethos lies the conviction that teamwork, collaboration, and open communication form the bedrock of success. Our team operates in unison,
                     ensuring that we deliver unparalleled service and support to our clients. We foster a vibrant, respectful work atmosphere where every voice is cherished, and diverse opinions and ideas are celebrated.</p>
-                  <p class="collapses text-justify">Priding ourselves on staying ahead of the game, we continuously adapt to emerging technologies and trends, relentlessly honing our skills and expanding our
+                  <p class="collapse text-justify">Priding ourselves on staying ahead of the game, we continuously adapt to emerging technologies and trends, relentlessly honing our skills and expanding our
                     knowledge to better serve our clients. With our formidable team as your trusted ally, you can rest easy knowing that you have the ultimate support for your technology needs, empowering your 
                     business to conquer new horizons.</p>
             </div>
@@ -260,11 +261,12 @@
       </div>
 
       <div class="row" id="contact">
-        <div class="footer">
+        <footer class="footer">
+          <div class="container">
               <div class="row">
                   <div class="col-md-6">
-                      <h4 class="text-lrft">About Us</h4>
-                      <p class="text-justify">ASV Business Solutions believe that information has cost and that all business decisions should be an informed decision. Supported by facts from the root level, trial and error method of decision making would be eliminated and shall be replaced with clear directions not only for business executives but for all stakeholders whose interest is the growth of the company.</p>
+                      <h4>About Us</h4>
+                      <p>ASV Business Solutions believe that information has cost and that all business decisions should be an informed decision. Supported by facts from the root level, trial and error method of decision making would be eliminated and shall be replaced with clear directions not only for business executives but for all stakeholders whose interest is the growth of the company.</p>
                   </div>
                   <div class="col-md-6">
                       <h4>Contact Us</h4>
@@ -272,10 +274,11 @@
                       Phone: (+63) 32-350-5550</p>
                   </div>
               </div>
-              <div class="copyr">
-                <p>Copyright ASV 2023 - Site by Cirquolus</p>
-              </div>
           </div>
+        <div>
+          <p class="text-center">Copyright ASV 2023 - Site by Cirquolus</p>
+        </div>
+      </footer>
       </div>
         
       
@@ -291,11 +294,26 @@
       document.querySelector(".navbar-collapse").classList.toggle("show");
         });
       $(".read-more").click(function() {
-      $(this).closest(".col").find(".collapses").toggle();
+      $(this).closest(".col").find(".collapse").toggle();
         });
       $(".box").hover(function() {
       $(this).find(".collapse").toggle();
         });
+        window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 </script>
   </body>
 </html>

@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="module.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<!-- Link to Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<!-- Link to custom CSS -->
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -57,17 +58,6 @@
 
 </nav>
 
-<div class="container mt-5">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="alert alert-primary" role="alert">
-          <img id= "banner_img" src="image.jpg" alt="Banner Image" class="img-fluid">
-        </div>
-      </div>
-    </div>
-</div>
-
-
 <div class="container">
   <img id="paint_img" src="../image/paint.png" alt="Paint" class="rotated-image">
     <div class="row">
@@ -110,39 +100,6 @@
 </div>
 
 <div class="container">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="box">
-                <h3>Box 1</h3>
-                <p>This is the first box.</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="box">
-                <h3>Box 2</h3>
-                <p>This is the second box.</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="box">
-                <h3>Box 3</h3>
-                <p>This is the third box.</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="carousel">
-  <img src="../image/assets management black.png" alt="Image 1" class="carousel-item">
-  <img src="../image/audit black.png" alt="Image 2" class="carousel-item">
-  <img src="../image/CRM black.png" alt="Image 3" class="carousel-item">
-</div>
-
-
-
-<div class="container">
-  <img id="low_img" src="../image/low.png" alt="Low" class="rotated-image">
     <div class="row">
         <div class="shadow-box">
           <p class="text-justify">Furthermore, relying on traditional HR management methods can present a number of challenges that may impede their efficacy and productivity. Some prevalent issues include:<br>
@@ -195,20 +152,5 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script>
-  $(document).ready(function() {
-  var items = $('.carousel-item');
-  var currentItem = 0;
-
-  setInterval(function() {
-    items.eq(currentItem).removeClass('active').addClass('left');
-
-    currentItem = (currentItem + 1) % items.length;
-
-    items.eq(currentItem).removeClass('right').addClass('active');
-    items.eq((currentItem + 1) % items.length).removeClass('left').addClass('right');
-  }, 2000);
-});
-</script>
 </body>
 </html>
