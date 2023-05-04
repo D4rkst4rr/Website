@@ -55,59 +55,22 @@
     z-index: 99;
 }
 
-/*carousel*/
-
-.carousel-item img {
-    display: block;
-    margin: 0 auto;
-  }
-
 
 /*box*/
 
-.shadow-box {
-      background-color: #ffffff; /* Set background color */
-      padding: 20px; /* Set padding */
-      box-shadow: 0px 0px 20px rgba(0,0,0,0.1); /* Add box shadow */
-      margin-bottom: 20px;
-}
-
-.box {
-    background-color: #f8f9fa;
-    border: 1px solid #ced4da;
-    padding: 20px;
+.shadow-box { 
+    padding: 20px; /* Set padding */
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1); /* Add box shadow */
     margin-bottom: 20px;
 }
-
-.text-right {
-    text-align: right;
-    margin-bottom: 20px;
-    padding: 20px;
-}
-
 
 
 /*text*/
 
-.centered-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-} 
 
-p {
-    text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 40px;
-}
 
-.h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-li {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.navb li {
+    font-family:  Arial, Helvetica, sans-serif;
 }
 
 /*image*/
@@ -123,7 +86,7 @@ li {
     50% { transform: translateY(-25px); }
 }
 
-#paint_img {
+.rotate {
     position: absolute;
     top: 30%;
     left: 46%;
@@ -147,9 +110,6 @@ li {
     animation: float 4s ease-in-out infinite;
 }
 
-.rotated-image {
-    transform: rotate(90deg);
-}
 
 .img-fluid {
     width: 100px;
@@ -169,14 +129,6 @@ li {
     margin: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
-/*
-img {
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-}
-*/
 
 
 
@@ -188,8 +140,46 @@ img {
     justify-content: center;
 }
 
-.text-center {
-    font-size: 30;
-    text-align: center;
-    margin-top: 20px;
-}
+
+.rotate {
+    -webkit-animation: rotate 15s infinite linear;
+    animation: rotate 15s infinite linear;
+  }
+  
+  @-webkit-keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .carousel_img {
+    padding-top: 85px;
+  }
+
+  hr {
+    height: 2px;
+    background-color: #000000;
+    border: none;
+    margin: 20px 0;
+ }
+ .uppertext {
+    text-transform: capitalize;
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    
+ }
+ .upperr p h3 {
+    font-family: 'Poppins', sans-serif;
+ }
+
