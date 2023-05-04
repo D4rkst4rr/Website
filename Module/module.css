@@ -1,5 +1,49 @@
 
+.navbar {
+    overflow: visible;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+  }
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+  }
 
+  .navbar-navv {
+    display: flex;
+    justify-content: right;
+  }
+
+  .nav-item {
+    margin: 0 10px;
+  
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #030303;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+.nav-item {
+    text-decoration: black;
+    overflow: visible;
+    z-index: 3;
+    margin-right: 10px;
+    text-align: right;
+}
 /*scroll Button*/
 
 .scroll-btn {
@@ -47,9 +91,14 @@
 p {
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 40px;
 }
 
 .h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -94,7 +143,8 @@ img {
 .footer {
     background-color: #fdfdfd;
     padding: 30px;
-    border-top: 0.1px solid rgb(197, 197, 197);
+    border-top: 0.1px solid rgb(197, 197, 197);     
+    justify-content: center;
 }
 
 .text-center {
