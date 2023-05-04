@@ -1,3 +1,4 @@
+/*navbar*/
 
 .navbar {
     overflow: visible;
@@ -53,6 +54,13 @@
     display: none;
     z-index: 99;
 }
+
+/*carousel*/
+
+.carousel-item img {
+    display: block;
+    margin: 0 auto;
+  }
 
 
 /*box*/
