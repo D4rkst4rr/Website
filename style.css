@@ -58,14 +58,13 @@ section:not(:target) {
 /*home section  //////////////////////////////////////////////// */
 #home {
   padding-top: 2px;
-  padding-bottom: 25vh;
-
-  padding-right: 50px;
+  padding-bottom: 18vh;
+  padding-right: 50px 
 }
 
 /*about section /////////////////////////////////////////////// */
 #about {
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 20px;
   padding-left: 100px;
 }
@@ -456,10 +455,10 @@ i {
 
 #bg_abt{
   position: absolute;
-  top: 4in;
-  left: 50%;
+  top: 3.5in;
+  left: 80%;
   transform: translate(-50%, -50%);
-  width: 80%;
+  width: 90%;
   height: auto;
   z-index: -2;
 }
