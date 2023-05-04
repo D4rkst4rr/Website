@@ -2,7 +2,7 @@
 
 .navbar {
     overflow: visible;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
     position: fixed;
     top: 0;
     width: 100%;
@@ -45,34 +45,19 @@
     margin-right: 10px;
     text-align: right;
 }
-/*scroll Button*/
-
-.scroll-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    display: none;
-    z-index: 99;
-}
 
 
 /*box*/
 
 .shadow-box { 
-    background-color: rgba(255, 255, 255, 0.9);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 20px; /* Set padding */
     box-shadow: 0px 0px 20px rgba(0,0,0,0.1); /* Add box shadow */
     margin-bottom: 20px;
 }
 
 
-/*text*/
-
-
-
-.navb li {
-    font-family:  Arial, Helvetica, sans-serif;
-}
 
 /*image*/
 
@@ -87,13 +72,6 @@
     50% { transform: translateY(-25px); }
 }
 
-.container1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin: 20px;
-}
 
 /*Footer*/
 .footer {
@@ -107,11 +85,12 @@
 
   hr {
     height: 2px;
-    background-color: #000000;
+    background-color: #ffffff;
     border: none;
     margin: 20px 0;
  }
  .uppertext {
+    color:white;
     font-size: 55px;
     font-family: 'Poppins', sans-serif;
     
@@ -125,8 +104,9 @@
 }
 
 body {
-    background-image: url("../image/whitebuilding.jpg");
+    background-image: url("../image/wider.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
   }
 
@@ -138,4 +118,7 @@ body {
 .clicks {
     padding-top: 11px;
     padding-bottom: 11px;
+}
+.pagebody {
+    margin-top: 1in;
 }
