@@ -59,7 +59,7 @@ section:not(:target) {
 #home {
   padding-top: 18px;
   padding-bottom: 25vh;
-  padding-left: 50px;
+
   padding-right: 50px;
 }
 
@@ -112,7 +112,7 @@ section:not(:target) {
   background-size: cover; /* Scale the image to cover the entire section */
   background-position: center center; /* Center the image vertically and horizontally */
   padding-top: 95px;
-  padding-bottom: 50px;
+  margin-bottom: 4in;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -132,7 +132,7 @@ section:not(:target) {
 }
 
 .box1:hover {
-  background-color: #5A5A5A;
+  background-color: #5a5a5a;
 }
 
 .box1:hover h5{
@@ -144,7 +144,7 @@ section:not(:target) {
 }
 
 .box2:hover {
-  background-color: #5A5A5A;
+  background-color: #5a5a5a;
 }
 
 .box2:hover h5{
@@ -156,7 +156,7 @@ section:not(:target) {
 }
 
 .box3:hover {
-  background-color: #5A5A5A;
+  background-color: #5a5a5a;
 }
 
 .box3:hover h5{
@@ -168,7 +168,7 @@ section:not(:target) {
 }
 
 .box4:hover {
-  background-color: #5A5A5A;
+  background-color: #5a5a5a;
 }
 
 .box4:hover h5{
@@ -180,7 +180,7 @@ section:not(:target) {
 }
 
 .box5:hover {
-  background-color: #5A5A5A;
+  background-color: #5a5a5a;
 }
 
 .box5:hover h5{
@@ -192,7 +192,7 @@ section:not(:target) {
 }
 
 .box {
-  margin: 20px;
+  margin: 25px;
 }
 
 
@@ -245,7 +245,7 @@ section:not(:target) {
 
 /*contact section //////////////////////////////////////////////  */
 #contact {
-  background-image: url('image/low.png');
+  background-image: url('image/pad.png');
   background-size: 120% 300%; /* Scale the image */
   background-position: center center; /* Center the image */
   padding-top: 15px;
@@ -318,8 +318,8 @@ i {
 }
 
 .icons {
-  padding-top: 130px;
-  padding-left: -30px;
+  padding-top: 150px;
+
 }
 
 #vertical-text-container {
@@ -341,7 +341,7 @@ i {
 }
 
 .fab.fa-facebook:hover {
-  color: #ffffff;
+  color: #ff904e;
 }
 
 .fab.fa-instagram {
@@ -349,7 +349,7 @@ i {
 }
 
 .fab.fa-instagram:hover {
-  color: #ffffff;
+  color: #ff904e;
 }
 
 .fab.fa-linkedin {
@@ -357,7 +357,7 @@ i {
 }
 
 .fab.fa-linkedin:hover {
-  color: #ffffff;
+  color: #ff904e;
 }
 
 
@@ -377,7 +377,7 @@ i {
 
 #laptop_img{
   position:absolute;
-  top: 71%;
+  top: 67%;
   left: 40%;
   transform: translate(-50%, -50%);
   width: 50%;
@@ -386,8 +386,8 @@ i {
 
 #bg_img{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 37.5%;
+  left: 53%;
   transform: translate(-50%, -50%);
   width: 100%;
   height: auto;
@@ -418,19 +418,27 @@ i {
 }
 
 .card img {
-  height: 60px;
-  width: 70px;
+  height: 65px;
+  width: 75px;
   padding-top: 20px;
   padding-left: 30px;
 }
 
 .card {
   margin-top: 20px;
-  text-decoration: none;
 }
-.card:hover {
+
+.card a {
+  color: black;
+}
+
+.card a:hover {
   color: white;
+}
+
+.card:hover {
   background-color: #ff904e;
+  transform: scale(1.05);
 }
 
 #bg_abt{
@@ -441,4 +449,22 @@ i {
   width: 80%;
   height: auto;
   z-index: -2;
+}
+
+.card-img-top {
+  transition: transform .2s; /* Add a smooth transition effect */
+}
+
+.box {
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+.box:hover .collapse {
+  max-height: 400px;
+}
+
+.collapse {
+  max-height: 0;
+  transition: all 0.3s ease-in-out;
 }
