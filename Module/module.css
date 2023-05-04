@@ -59,6 +59,7 @@
 /*box*/
 
 .shadow-box { 
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 20px; /* Set padding */
     box-shadow: 0px 0px 20px rgba(0,0,0,0.1); /* Add box shadow */
     margin-bottom: 20px;
@@ -86,35 +87,6 @@
     50% { transform: translateY(-25px); }
 }
 
-.rotate {
-    position: absolute;
-    top: 30%;
-    left: 46%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    height: auto;
-    z-index: -2;
-    opacity: 0.3;
-    animation: float 4s ease-in-out infinite;
-}
-
-#low_img {
-    position: absolute;
-    top: 130%;
-    left: 1%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    height: auto;
-    z-index: -2;
-    opacity: 0.3;
-    animation: float 4s ease-in-out infinite;
-}
-
-
-.img-fluid {
-    width: 100px;
-    height: 50px;   
-}
 .container1 {
     display: flex;
     justify-content: center;
@@ -123,49 +95,15 @@
     margin: 20px;
 }
 
-#pic {
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-}
-
-
-
 /*Footer*/
 .footer {
     background-color: #ffc17ae0;
-    padding: 30px;
-    border-top: 0.1px solid rgb(197, 197, 197);     
+    font-size: 14px;
+    padding: 10px;
     justify-content: center;
 }
 
 
-.rotate {
-    -webkit-animation: rotate 15s infinite linear;
-    animation: rotate 15s infinite linear;
-  }
-  
-  @-webkit-keyframes rotate {
-    from {
-      -webkit-transform: rotate(0deg);
-    }
-    to {
-      -webkit-transform: rotate(360deg);
-    }
-  }
-  
-  @keyframes rotate {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  .carousel_img {
-    padding-top: 85px;
-  }
 
   hr {
     height: 2px;
@@ -174,7 +112,6 @@
     margin: 20px 0;
  }
  .uppertext {
-    text-transform: capitalize;
     font-size: 55px;
     font-family: 'Poppins', sans-serif;
     
@@ -183,3 +120,22 @@
     font-family: 'Poppins', sans-serif;
  }
 
+.tag {
+    padding-top: 15px;
+}
+
+body {
+    background-image: url("../image/whitebuilding.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.click {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.clicks {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
