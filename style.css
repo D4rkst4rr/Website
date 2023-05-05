@@ -33,6 +33,7 @@ ul {
 }
 
 
+
 /* Add a background color on hover */
 .navbar a:hover {
   background-color: #ccc6c6;
@@ -373,7 +374,7 @@ i {
 
 #laptop_img{
   position:absolute;
-  top: 64%;
+  top: 58%;
   left: 40%;
   transform: translate(-50%, -50%);
   width: 50%;
@@ -389,10 +390,19 @@ i {
   height: auto;
   z-index: -2;
 }
+/*
+body {
+  background-image: url('image/background.png');
+  background-repeat: no-repeat;
+  background-size: 1986px 1185px;
+  background-position: top center;
+  background-attachment: scroll;
+  background-position-y: 50;
+}*/
 
 #mobile_img{
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 65%;
   transform: translate(-50%, -50%);
   width: 12%;
@@ -455,6 +465,7 @@ i {
   position: relative;
   transition: all 0.5s ease-in-out;
 }
+
 
 .box:hover .collapse {
   max-height: 400px;
