@@ -241,10 +241,12 @@ section:not(:target) {
 .features_title {
   padding-left: 10px;
 }
+.feature_titletop {
+  margin-top: 80px;
+}
 
 .features_text {
   padding-left: 10px;
-
 }
 
 /*contact section //////////////////////////////////////////////  */
@@ -303,7 +305,8 @@ p {
 
 i {
   font-size: 28px;
-  padding-top: 25px;
+  padding-top : 24px;
+
 }
 .d-flex {
   margin-left:-60px; 
@@ -315,8 +318,7 @@ i {
 }
 
 .icons {
-  padding-top: 210px;
-
+  padding-top: 170px;
 }
 
 #vertical-text-container {
