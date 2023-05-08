@@ -50,8 +50,8 @@
 /*box*/
 
 .shadow-box { 
-    color: white;
-    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(0, 0, 0);
+    background-color: rgba(247, 237, 237, 0.8);
     padding: 20px; /* Set padding */
     box-shadow: 0px 0px 20px rgba(0,0,0,0.1); /* Add box shadow */
     margin-bottom: 20px;
@@ -81,36 +81,28 @@
     justify-content: center;
 }
 
-.carousel_img {
-  padding-top: 17px;
-}
-
   hr {
     height: 2px;
-    background-color: #ffffff;
+    background-color: #000000;
     border: none;
     margin: 20px 0;
  }
  .uppertext {
-    color:white;
+    color:rgb(0, 0, 0);
     font-size: 55px;
-    font-family: 'Poppins', sans-serif;
-    
+    font-family: 'Poppins', sans-serif; 
  }
+
  .upperr p h3 {
     font-family: 'Poppins', sans-serif;
  }
+
 
 .tag {
     padding-top: 15px;
 }
 
-body {
-    background-image: url("../image/wider.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
+
 
 .click {
     font-family: 'Times New Roman', Times, serif;
@@ -123,4 +115,189 @@ body {
 }
 .pagebody {
     margin-top: 1in;
+}
+
+
+/* hover box */
+
+.box1:hover {
+  background-color: #5a5a5a;
+  transform: scale(1.05);
+}
+
+.box1:hover h5{
+  color: white;
+}
+
+.box1:hover p{
+  color: white;
+}
+
+.box2:hover {
+  background-color: #5a5a5a;
+  transform: scale(1.05);
+}
+
+.box2:hover h5{
+  color: white;
+}
+
+.box2:hover p{
+  color: white;
+}
+
+.box3:hover {
+  background-color: #5a5a5a;
+  transform: scale(1.05);
+}
+
+.box3:hover h5{
+  color: white;
+}
+
+.box3:hover p{
+  color: white;
+}
+
+.box4:hover {
+  background-color: #5a5a5a;
+  transform: scale(1.05);
+}
+
+.box4:hover h5{
+  color: white;
+}
+
+.box4:hover p{
+  color: white;
+}
+
+.box5:hover {
+  background-color: #5a5a5a;
+  transform: scale(1.05);
+}
+
+.box5:hover h5{
+  color: white;
+}
+
+.box5:hover p{
+  color: white;
+}
+
+.box {
+  margin: 25px;
+}
+
+.boxs {
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+.box {
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+.box p {
+  font-size: 15px;
+}
+
+.box:hover .collapse {
+  max-height: 650px;
+}
+
+.box .collapse {
+  max-height: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+#benefits img {
+  padding-top: 20px;
+  max-width: 60%;
+  height: auto;
+}
+
+#benefits {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+/*rotate bg img*/
+
+.bg3-img {
+  position: absolute;
+  overflow: hidden;
+  top: -30%;
+  left: 40%;
+  z-index: -1;
+  padding:80px;
+}
+
+.bg3-img img {
+  width: 100%;
+  height: auto;
+  animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* animate float */
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-25px); }
+}
+
+#updown_bg {
+  animation: float 4s ease-in-out infinite;
+  position: relative;
+  z-index: -2;
+  position: absolute;
+  top: 185%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height:auto;
+}
+
+.card-img-top {
+  width: 5%;
+  height: auto;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.boxcard {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.card:hover {
+  background-color:#5a5a5a;
+  color: white;
+  transform: scale(1.05);
+}
+
+.card {
+  margin-top: 20px;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #ccc; /* set the border style */
+  border-radius: 10px; /* set the border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a shadow effect */
+}
+
+.texts {
+  margin-top:20px;
+}
+
+.lower {
+  margin-top: 25px;
 }
