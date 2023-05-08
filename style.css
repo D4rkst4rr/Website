@@ -64,7 +64,7 @@ section:not(:target) {
 }
 
 .title_page {
-  padding-top: 70px;
+  padding-top: 35px;
 }
 
 /*about section /////////////////////////////////////////////// */
@@ -315,7 +315,7 @@ i {
 }
 
 .icons {
-  padding-top: 150px;
+  padding-top: 210px;
 
 }
 
@@ -374,7 +374,7 @@ i {
 
 #laptop_img{
   position:absolute;
-  top: 58%;
+  top: 52%;
   left: 40%;
   transform: translate(-50%, -50%);
   width: 50%;
@@ -402,7 +402,7 @@ body {
 
 #mobile_img{
   position: absolute;
-  top: 30%;
+  top: 33.5%;
   left: 65%;
   transform: translate(-50%, -50%);
   width: 12%;
@@ -418,7 +418,7 @@ body {
   position: absolute;
   width: 25%;
   height: 25%;
-  top: 50%;
+  top: 40%;
   left: 68%;
   transform: translate(-50%, -50%);
 }
