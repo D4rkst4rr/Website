@@ -84,7 +84,7 @@ section:not(:target) {
   margin-left: -50px;
 }
 .about2 {
-  padding-top:310px;
+  padding-top:50px;
 }
 
 .about2_1 {
@@ -209,11 +209,6 @@ section:not(:target) {
   padding-right: 40px;
   padding-top: 50px;
   padding-bottom: 40px;
-}
-/*button hidder*/
-
-.collapse {
-  display: none;
 }
 
 .center {
@@ -522,4 +517,20 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.hi-pic {
+  width: 75%;
+  height: auto;
+  padding-top: 50px;
+}
+
+.do-pic {
+  width: 100%;
+  height: auto;
+}
+
+.team-pic {
+  width: 90%;
+  height: auto;
 }

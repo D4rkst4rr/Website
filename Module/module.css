@@ -52,7 +52,7 @@
 .shadow-box { 
     color: rgb(0, 0, 0);
     background-color: rgba(247, 237, 237, 0.8);
-    padding: 20px; /* Set padding */
+    padding: 10px; /* Set padding */
     box-shadow: 0px 0px 20px rgba(0,0,0,0.1); /* Add box shadow */
     margin-bottom: 20px;
 }
