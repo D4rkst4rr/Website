@@ -319,3 +319,8 @@
 .carousel_img {
   padding-top: 15px;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: gray;
+}
