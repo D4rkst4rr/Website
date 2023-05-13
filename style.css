@@ -64,7 +64,7 @@ section:not(:target) {
 }
 
 .title_page {
-  padding-top: 0;
+  padding-top: 15px;
   text-align: center;
   margin-bottom: 2in;
 }
@@ -430,6 +430,13 @@ i {
     width: 100%;
     max-width: 200px;
   }
+  #bg_abt {
+    display: none;
+  }
+
+  .hi-pic {
+    display: none;
+  }
 
 }
 .card img {
@@ -466,7 +473,7 @@ i {
 /* bg_abt image screen size adjustments */
 #bg_abt{
   position: absolute;
-  top: 8in;
+  top: 12in;
   transform: translate(-50%, -50%);
   width: 50%;
   height: auto;
@@ -548,6 +555,7 @@ i {
 .do-pic {
   width: 100%;
   height: auto;
+  margin-left: -40px;
 }
 
 .team-pic {
