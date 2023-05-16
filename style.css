@@ -135,6 +135,7 @@ section:not(:target) {
 
 #services h5 {
   text-align: center;
+  font-size: medium;
 }
 
 #services p {
@@ -438,6 +439,11 @@ i {
     display: none;
   }
 
+  .d-flex {
+    margin-left:5px; 
+    margin-right: 1140px;;
+  }
+
 }
 .card img {
   height: 65px;
@@ -513,8 +519,13 @@ i {
   background-color: #555;
   color: white;
   cursor: pointer;
-  padding: 15px;
+  padding: 10px;
   border-radius: 4px;
+}
+
+#myBtn img{
+  width: 25px;
+  height: auto;
 }
 
 #myBtn:hover {
