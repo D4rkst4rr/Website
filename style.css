@@ -201,9 +201,7 @@ section:not(:target) {
   color: white;
 }
 
-.box {
-  margin: 25px;
-}
+
 
 
 .btn-primary:focus, .btn-primary.focus {
@@ -438,6 +436,11 @@ i {
     display: none;
   }
 
+  .d-flex {
+    margin-left:5px; 
+    margin-right: 1140px;;
+  }
+
 }
 .card img {
   height: 65px;
@@ -513,8 +516,13 @@ i {
   background-color: #555;
   color: white;
   cursor: pointer;
-  padding: 15px;
+  padding: 10px;
   border-radius: 4px;
+}
+
+#myBtn img{
+  width: 25px;
+  height: auto;
 }
 
 #myBtn:hover {
