@@ -135,7 +135,6 @@ section:not(:target) {
 
 #services h5 {
   text-align: center;
-  font-size: medium;
 }
 
 #services p {
@@ -202,9 +201,7 @@ section:not(:target) {
   color: white;
 }
 
-.box {
-  margin: 25px;
-}
+
 
 
 .btn-primary:focus, .btn-primary.focus {

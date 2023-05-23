@@ -338,6 +338,16 @@
   margin: 0 30px;
 }
 
+#HR_benefits {
+  margin: 0 140px;
+}
+
+#HR_benefits img {
+  padding-top: 20px;
+  max-width: 55%;
+  height: auto;
+}
+
 /*#benefits {
   margin-left: 80px;
   margin-right: 80px;
