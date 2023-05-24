@@ -466,6 +466,42 @@ i {
   transform: scale(1.05);
 }
 
+.card:hover .HR01{
+  content:url(image/HR_white.png);
+}
+
+.card:hover .POS01{
+  content:url(image/POS\ white.png);
+}
+
+.card:hover .FIN01{
+  content:url(image/financial\ management\ white.png);
+}
+
+.card:hover .CRM01{
+  content:url(image/CRM\ white.png);
+}
+
+.card:hover .AST01{
+  content:url(image/assetsM\ white.png);
+}
+
+.card:hover .PROD01{
+  content:url(image/production\ management\ white.png);
+}
+
+.card:hover .PURM01{
+  content:url(image/production\ management\ white.png);
+}
+
+.card:hover .AUDM01{
+  content:url(image/audit\ white.png);
+}
+
+.card:hover .WAR01{
+  content:url(image/WAREHOUSING\ MANAGEMENT\ white.png);
+}
+
 .img_rot{
   display: flex;
   justify-content: center;
