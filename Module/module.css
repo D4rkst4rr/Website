@@ -145,6 +145,18 @@
   content:url(../image/PRODUCTION/meeting\ production\ white.png);
 }
 
+.box1:hover .HR1 {
+  content:url(../image/HR/Personal\ white.png);
+}
+
+.box1:hover .HR5 {
+  content:url(../image/HR/Time\ Tracking\ white.png);
+}
+
+.box1:hover .HR9 {
+  content:url(../image/HR/Accurate\ Payroll\ white.png);
+}
+
 .box1:hover h5{
   color: white;
 }
@@ -176,6 +188,16 @@
 
 .box2:hover .BPROD2 {
   content:url(../image/PRODUCTION/quality\ white.png);
+}
+
+.box2:hover .HR2 {
+  content:url(../image/HR/Payroll\ white.png);
+}
+.box2:hover .HR6 {
+  content:url(../image/HR/Location\ white.png);
+}
+.box2:hover .HR10 {
+  content:url(../image/HR/Time-Saving\ white.png);
 }
 
 .box2:hover h5{
@@ -211,6 +233,18 @@
   content:url(../image/PRODUCTION/satisfying\ white.png);
 }
 
+.box3:hover .HR3 {
+  content:url(../image/HR/Benefits\ white.png);
+}
+
+.box3:hover .HR7 {
+  content:url(../image/HR/Time\ Off\ white.png);
+}
+
+.box3:hover .HR11 {
+  content:url(../image/HR/Cost\ Saving\ white.png);
+}
+
 .box3:hover h5{
   color: white;
 }
@@ -244,6 +278,16 @@
   content:url(../image/PRODUCTION/minimizing\ cost\ white.png);
 }
 
+.box4:hover .HR4 {
+  content:url(../image/HR/Work\ Schedule\ white.png);
+}
+.box4:hover .HR8 {
+  content:url(../image/HR/Schedule\ white.png);
+}
+.box4:hover .HR12 {
+  content:url(../image/HR/Data\ Securiing\ \ white.png);
+}
+
 .box4:hover h5{
   color: white;
 }
@@ -271,6 +315,10 @@
 
 .box5:hover .BAST10 {
   content:url(../image/ASSET/custom\ reporting\ white.png);
+}
+
+.box5:hover .HR13 {
+  content:url(../image/HR/Law\ Adhering\ white.png);
 }
 
 
@@ -533,6 +581,25 @@
 }
 .card:hover .WARH9{
   content:url(../image/WAREHOUSING/Reporting\ white.png)
+}
+
+.card:hover .HR01{
+  content:url(../image/HR/Personal\ Data\ white.png)
+}
+.card:hover .HR02{
+  content:url(../image/HR/Documents\ \ white.png)
+}
+.card:hover .HR03{
+  content:url(../image/HR/Disciplinary\ white.png)
+}
+.card:hover .HR04{
+  content:url(../image/HR/Statutory\ white.png)
+}
+.card:hover .HR05{
+  content:url(../image/HR/Device\ white.png)
+}
+.card:hover .HR06{
+  content:url(../image/HR/Branch\ white.png)
 }
 
 
